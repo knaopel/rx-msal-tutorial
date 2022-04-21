@@ -15,7 +15,7 @@ export const PageLayout = (props) => {
         </a>
         {isAuthenticated ? <SignOutButton /> : <SignInButton />}
       </Navbar>
-      <h5>
+      <h5 className="text-center">
         Welcome to the Microsoft Authentication Library for React Tutorial
       </h5>
       <br />

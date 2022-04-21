@@ -6,14 +6,14 @@ import React from "react";
  * Renders information about the user obtained from Microsoft Graph
  */
 export const ProfileData = (props) => (
-  <div id="profile-dev">
+  <div className="text-center" id="profile-div">
     <p>
       <strong>First Name: </strong>
       {props.graphData.givenName}
     </p>
     <p>
       <strong>Last Name: </strong>
-      {props.graphData.suname}
+      {props.graphData.surname}
     </p>
     <p>
       <strong>Email: </strong>
